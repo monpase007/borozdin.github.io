@@ -15,6 +15,8 @@
 
 ![none](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_1/UML.png)
 
+![none](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_1/UML1.png)
+
 ## Лабораторная 2
 
 ## Лабораторная 3
