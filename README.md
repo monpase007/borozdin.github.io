@@ -4,7 +4,6 @@
 ## Лабораторная 1
 
 # RAMUS - программное средство разработки структурно-функциональных моделей
-
 Текст с постановкой задачи: Нарисовать чертёж
 
 ![none](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_1/ramus1.JPG)
@@ -12,7 +11,6 @@
 Текст после построения диаграммы: Инженер Рисует Чертеж по ТЗ при помощи Кльмана, используя Карандаши и Бумагу.
 
 # PLANTUML - программное средство автоматической генерации UML-диаграмм
-
 ![none](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_1/UML.png)
 
 ![none](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_1/UML1.png)
