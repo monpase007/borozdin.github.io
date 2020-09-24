@@ -11,8 +11,9 @@
 Текст после построения диаграммы: Инженер Рисует Чертеж по ТЗ при помощи Кльмана, используя Карандаши и Бумагу.
 
 ### PLANTUML - программное средство автоматической генерации UML-диаграмм
+#### Class diagram
 ![none](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_1/UML.png)
-
+#### Usecase diagram
 ![none](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_1/UML1.png)
 
 ## Лабораторная 2
