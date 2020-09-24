@@ -13,10 +13,15 @@
 ### PLANTUML - программное средство автоматической генерации UML-диаграмм
 #### Class diagram
 ![none](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_1/UML.png)
+
 Код: 
 ![none](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_1/UML_txt_1.txt)
+
 #### Usecase diagram
 ![none](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_1/UML1.png)
+
+Код: 
+![none](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_1/UML_txt_2.txt)
 
 ## Лабораторная 2
 
