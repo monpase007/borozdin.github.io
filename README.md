@@ -5,6 +5,8 @@
 
 Текст с постановкой задачи
 
+![none](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_1/image.png)
+
 Рисунок прямо здесь (выгруженный из РАМУС, выгруженный или созданный "на лету" в PLANTUML)
 
 Ссылки на доп.материалы
