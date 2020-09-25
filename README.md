@@ -23,6 +23,20 @@
 
 ## Лабораторная 2
 
+### IDEF0
+
+![none](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_2/idef0.JPG)
+
+### PDC
+
+![none](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_2/PDC.JPG)
+
+### DFD
+
+![none](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_2/DFD.JPG)
+
+[Файл RAMUS](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_2/Ramus.rsf)
+
 ## Лабораторная 3
 
 ## Лабораторная 4
