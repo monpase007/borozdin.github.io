@@ -33,9 +33,10 @@
 
 ### DFD
 
+Блок "Контроль качества":
 ![none](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_2/DFD.JPG)
 
-[Файл RAMUS](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_2/Ramus.rsf)
+[Файл .rsf](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_2/Ramus.rsf)
 
 ## Лабораторная 3
 
