@@ -35,8 +35,13 @@
 
 Блок "Контроль качества":
 ![none](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_2/DFD.JPG)
-
 [Файл .rsf](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_2/Ramus.rsf)
+
+### Диаграмма прецедентов
+
+![none](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_2/UseCase.JPG)
+
+[Код](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_1/UML_txt_1.txt)
 
 ## Лабораторная 3
 
