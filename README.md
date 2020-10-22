@@ -51,9 +51,9 @@
 [Код](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_3/UML.txt)
 
 ### ER-диаграмма
-[Текст](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_3/ER.txt) и [Рисунок](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_3/Снимок%20экрана%202020-10-22%20в%2014.41.02.png) для диаграммы классов
+[Текст](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_3/ER.txt) и [Рисунок](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_3/Снимок%20экрана%202020-10-22%20в%2014.53.25.png) для диаграммы классов
 
-![none](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_3/Снимок%20экрана%202020-10-22%20в%2014.41.02.png)
+![none](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_3/Снимок%20экрана%202020-10-22%20в%2014.53.25.png)
 
 ## Лабораторная 4
 
