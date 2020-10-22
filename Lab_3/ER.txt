@@ -1,0 +1,33 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+
+class ControlInfo as "Информационный поток"
+
+class Test as "Данные об изделии"
+class DB as "БД стандартов"
+class Stand as "Стандарты"
+class GoodInfo as "Тестирование изделия"
+class Good as "Изделие"
+class Form as "Выработка рекoмендаций"
+class Data as "Сотрудник ОТК"
+
+
+ControlInfo <|-- Data 
+
+Data <|-- Test
+Data <|-- Form
+DB *-- Stand
+Form <|-- DB
+Form <|-- Test
+Test <|-- DB
+Test <|-- GoodInfo
+GoodInfo *-- Good 
+
+hide members
+hide circle
+hide methods
+@enduml
