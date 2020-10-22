@@ -1,0 +1,42 @@
+@startuml
+actor "Сотрудник ОТК" as u
+participant "Тестирование изделия" as gd
+entity "Измерительные приборы" as tools
+database "БД стандартов" as db
+participant "Выработка рекомендаций" as c
+entity "Склад" as wh
+entity "Переработка" as rec
+entity "Департамент" as dep
+
+activate gd
+  u -> gd : Отправка изделия на тестирование
+  gd -> db : Запрос необходимых стандартов
+activate db
+  db -> gd : Выдача необходимых стандартов
+deactivate db
+gd -> tools : Выбор необходимых измерительных приборов
+activate tools
+  tools -> gd : Выдача необходимых измерительных приборов
+deactivate tools
+  gd -> gd : Проведение измерений
+  gd -> gd : Проверка изделия на соответствие стандарту
+  gd -> u : Возврат изделия и информации о нем
+deactivate gd
+  u -> c : Отправка информации об изделии
+activate c
+  c -> db : Запрос стандартов
+activate db
+  db -> c : Выдача стандартов
+deactivate db
+  c -> c : Выработка рекомендаций
+  c -> dep : Отправка рекомендаций рекомендаций
+deactivate c
+u -> wh : Отправка годного изделия
+activate wh
+  wh -> u : Сообщение о прибытии
+deactivate wh
+u -> rec : Отправка годного изделия
+activate rec
+  rec -> u : Сообщение о прибытии
+deactivate rec
+@enduml
