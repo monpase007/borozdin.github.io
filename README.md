@@ -45,6 +45,7 @@
 ## Лабораторная 3
 
 ### Диаграмма последовательности
+В качестве основы исопльзовался DFD-блок "Контроль качества" из лабораторной работы 2  
 
 ![none](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_3/Снимок%20экрана%202020-10-22%20в%2013.26.04.png)
 [Код](https://github.com/oyway6173/borozdin.github.io/blob/master/Lab_3/UML.txt)
