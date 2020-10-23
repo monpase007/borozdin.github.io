@@ -7,25 +7,19 @@ skinparam class {
 
 class ControlInfo as "Информационный поток"
 
-class Test as "Данные об изделии"
-class DB as "БД стандартов"
-class Stand as "Стандарты"
-class GoodInfo as "Тестирование изделия"
-class Good as "Изделие"
-class Form as "Выработка рекoмендаций"
-class Data as "Сотрудник ОТК"
+class data as "Данные об изделии"
+class test as "Результаты тестирования"
+class rec as "Рекомендации"
+class all as "Общие параметры изделия"
+Class BD as "БД: Собранное изделие"
 
 
-ControlInfo <|-- Data 
+ControlInfo <|-- BD
 
-Data <|-- Test
-Data <|-- Form
-DB *-- Stand
-Form <|-- DB
-Form <|-- Test
-Test <|-- DB
-Test <|-- GoodInfo
-GoodInfo *-- Good 
+BD <|-- data
+data *-- test
+data *-- rec
+data *-- all
 
 hide members
 hide circle
