@@ -1,0 +1,44 @@
+@startuml
+actor "Специалист ОТК" as u
+participant "Тестирование изделия" as test
+participant "Выработка рекомендаций" as c
+boundary "Веб-приложение" as app
+database "БД: Стандарты" as db1
+database "БД: Собранные изделия" as db2
+actor "Руководитель" as r
+activate app
+  u -> app : Sumbit
+  app -> db2 : Запрос данных изделия
+activate db2
+  db2 -> app : Выдача необходимых данных
+deactivate db2
+app -> db1 : Запрос необходимых стандартов
+activate db1
+  db1 -> app : Выдача необходимых стандартов
+deactivate db1
+  u -> test
+activate test
+  test -> u : Результаты тестирования
+ test -> app : Результаты тестирования
+deactivate test
+ app-> db2: Результаты тестирования
+
+u -> c
+activate c
+  c -> u : Рекомендации
+ c -> app : Рекомендации
+deactivate c
+ app-> db2: Рекомендации
+
+  r -> app: Запрос информации об изделиях
+  app -> db2: Запрос информации о годных изделиях
+  app -> db2: Запрос информации о браке
+  app -> db2: Запрос рекомендаций
+activate db2 
+  db2 -> app : Выдача запрошенной информации
+deactivate db2
+  app -> r : Выдача информации о годных изделиях
+  app -> r : Выдача информации о браке
+  app -> r : Выдача ркомендаций
+deactivate app
+@enduml
